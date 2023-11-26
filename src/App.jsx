@@ -7,6 +7,7 @@ import AppLayout from "./pages/AppLayout/AppLayout.jsx";
 import Login from "./pages/Login/Login.jsx";
 import CityList from "./components/CityList/CityList.jsx";
 import {useEffect, useState} from "react";
+import CountryList from "./components/CountryList/CountryList.jsx";
 
 const URL = "http://localhost:9000/cities";
 
@@ -41,7 +42,7 @@ export default function App() {
                     <Route path="/app" element={<AppLayout/>}>
                         <Route index element={<CityList cities={cities} isLoading={isLoading}/>}/>
                         <Route path='cities' element={<CityList cities={cities} isLoading={isLoading}/>}/>
-                        <Route path='countries' element={<p>List Of Countries</p>}/>
+                        <Route path='countries' element={<CountryList cities={cities} isLoading={isLoading}/>}/>
                         <Route path='form' element={<p>Form</p>}/>
                     </Route>
                     <Route path="*" element={<PageNotFound/>}/>

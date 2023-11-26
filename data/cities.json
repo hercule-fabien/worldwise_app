@@ -47,6 +47,30 @@
         "lng": 20.509207
       },
       "id": 984431923
+    },
+    {
+      "cityName": "Munich",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2020-02-15T09:24:11.863Z",
+      "notes": "Amazing 😃",
+      "position": {
+        "lat": 48.1351,
+        "lng": 11.5820
+      },
+      "id": 9844319777
+    },
+    {
+      "cityName": "Moscow",
+      "country": "Russia",
+      "emoji": "🇷🇺",
+      "date": "2023-11-20T09:24:11.863Z",
+      "notes": "Amazing 😃",
+      "position": {
+        "lat": 55.7558,
+        "lng": 37.6173
+      },
+      "id": 984431923235
     }
   ]
 }
