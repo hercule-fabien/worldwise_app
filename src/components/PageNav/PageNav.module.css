@@ -1,0 +1,19 @@
+.nav {
+    background-color: grey;
+    height: 10vh;
+
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    padding: 10px 20px;
+}
+
+.nav :global(.active) {
+    background-color: white;
+}
